@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+.container {
+    width: 194px;
+    height: 139px;
+    border-radius: 17px;
+    padding: 17px 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    
+    & .day {
+        font-weight: bold;
+        font-size: 64px;
+        color: #3C444E;
+    }
+
+    & .discription-day {
+        color: #D2D2D2;
+    }
+}
+.container :nth-child(1) {
+    align-self: flex-end;  
+}
