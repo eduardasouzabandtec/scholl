@@ -1,0 +1,16 @@
+<section>
+    <app-card>
+        <div class="app-classe__container">
+            <div class="app-classe__title">
+                <p class="title"> Your Clases</p>
+                <p class="subtitle">Master volleyball class</p>
+            </div>
+            <div class="app-classe__cards" >
+                <div *ngFor=" let task of taskscards">
+                    <app-card-task title="{{ task.title }}" urlimageicon ="{{ task.urlImagem }}" ></app-card-task>
+                </div>
+                
+            </div>
+        </div>
+    </app-card>
+</section>

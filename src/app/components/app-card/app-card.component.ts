@@ -2,7 +2,13 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-card',
-  templateUrl: './app-card.component.html',
+  template: `
+  <div class="container">
+  
+  <ng-content></ng-content>
+  
+  </div>
+  `,
   styleUrls: ['./app-card.component.scss']
 })
 export class AppCardComponent implements OnInit {

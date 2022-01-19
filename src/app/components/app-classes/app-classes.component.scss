@@ -1,0 +1,19 @@
+section {
+    width: 637px;
+    height: 255px;
+}
+.app-classe__container {
+display: flex;
+flex-direction: column;
+}
+
+.app-classe__title{
+   margin-bottom: 20px;
+}
+.app-classe__cards {
+    display: flex;  
+    justify-content: space-around;
+ 
+}
+
+
