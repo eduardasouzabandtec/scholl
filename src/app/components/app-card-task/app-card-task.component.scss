@@ -1,5 +1,4 @@
 .container {
-    background-color: #62D2B3;
     border-radius: 17px;
     width: 114px;
     height: 140px;
@@ -16,6 +15,16 @@
         width: 50%;
     }
     
+}
+.green {
+    background-color: #62D2B3;
+}
+
+.rose{
+    background-color: #FFB4A9;
+}
+.blue {
+    background-color: #234D71;
 }
 
 .container :nth-child(1) {

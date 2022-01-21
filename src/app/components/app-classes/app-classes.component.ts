@@ -12,25 +12,25 @@ export class AppClassesComponent implements OnInit {
     {
       title: "Japan Culture",
       urlImagem: "../../../assets/icon/japan.png",
-      typeColorCard: "",
+      typeColorCard: "green",
 
     },
     {
       title: "Vege Lovers",
       urlImagem: "../../../assets/icon/avocado.png ",
-      typeColorCard: "",
+      typeColorCard: "rose",
 
     },
     {
       title: "Master Volleyball",
       urlImagem: "../../../assets/icon/soccer-ball.png",
-      typeColorCard: "",
+      typeColorCard: "blue",
 
     },
     {
       title: "Class 2C",
       urlImagem: "../../../assets/icon/unicorn.png",
-      typeColorCard: "",
+      typeColorCard: "green",
 
     }
   ]
