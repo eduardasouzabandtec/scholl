@@ -1,0 +1,8 @@
+<div class="icon-user__container">
+    <div class="image" *ngFor="let user of usersForShow">
+        <img  class="radius" [src]="user.img" alt="">
+    </div>
+    <div class="radius more-users"> 
+    <p>+ {{ totalUsuarios}}</p>
+    </div>
+</div>
